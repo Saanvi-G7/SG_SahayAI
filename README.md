@@ -1,17 +1,5 @@
-# sahay_ai_app
+Sahay-AI An AI-powered accessibility assistant for persons with disabilities, built using Flutter, Java (Android) and Python FastAPI. One accessibility companion that adapts itself to the user's disability, communicates in their preferred language and modality, and lets them operate the phone/application with minimal physical interaction.
 
-AI Accessibility Assistant
+Key Features: SOS Emergency: Instant alert with GPS location to 5 emergency contacts and police. Voice Navigation: Control the entire app using voice commands ("Sahay, open schemes"). Government Schemes (RAG): Ask any question about welfare schemes and get dynamic, up-to-date answers. Talk with Me: AI companion for conversation, mental well-being, and engagement. Sign Language Detection: Camera detects ASL signs and converts them to text/speech. Dyslexia Assistance: OCR + spell correction for reading images, PDFs, and documents. Health Reminder: Medicine scheduling with voice notifications. Accessible Notifications: Reads all phone notifications aloud automatically.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Technology Stack: | Frontend | Flutter (Dart) | | Background Services | Native Java (Android) | | Backend / API | Python FastAPI | | AI/ML | TensorFlow Lite, MediaPipe, Tesseract OCR, Vosk (STT) | | RAG Pipeline | LangChain, FAISS, Sentence-Transformers | | State Management | Provider | | Local Storage | SharedPreferences, SQLite |
